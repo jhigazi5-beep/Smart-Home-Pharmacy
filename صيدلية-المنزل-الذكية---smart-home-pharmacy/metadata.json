@@ -1,0 +1,8 @@
+{
+  "name": "صيدلية المنزل الذكية - Smart Home Pharmacy",
+  "description": "تطبيق PWA عربي متكامل لإدارة صيدلية المنزل ومواعيد الأدوية وتتبع المؤشرات الحيوية وفحص التداخلات الدوائية بالذكاء الاصطناعي.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

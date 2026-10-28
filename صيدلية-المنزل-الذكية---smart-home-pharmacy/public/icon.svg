@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="pharmacyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f766e" />
+      <stop offset="50%" stop-color="#0d9488" />
+      <stop offset="100%" stop-color="#14b8a6" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#042f2e" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <!-- Background with rounded squircle -->
+  <rect width="512" height="512" rx="128" fill="url(#pharmacyGrad)"/>
+  
+  <!-- Subtle decorative ring -->
+  <circle cx="256" cy="256" r="190" fill="none" stroke="#ffffff" stroke-width="6" stroke-opacity="0.2"/>
+  
+  <!-- Cross shape (white) with shadow -->
+  <g filter="url(#shadow)">
+    <!-- Vertical bar -->
+    <rect x="216" y="116" width="80" height="280" rx="36" fill="#ffffff"/>
+    <!-- Horizontal bar -->
+    <rect x="116" y="216" width="280" height="80" rx="36" fill="#ffffff"/>
+  </g>
+
+  <!-- Golden pulse dot / heart in center -->
+  <circle cx="256" cy="256" r="30" fill="#f59e0b"/>
+  <path d="M256 242 C252 236 242 236 240 244 C238 252 256 268 256 268 C256 268 274 252 272 244 C270 236 260 236 256 242 Z" fill="#ffffff"/>
+  
+  <!-- Sparkles -->
+  <circle cx="370" cy="140" r="12" fill="#fef08a"/>
+  <circle cx="140" cy="370" r="8" fill="#fef08a"/>
+</svg>
